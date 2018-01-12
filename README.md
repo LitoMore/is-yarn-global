@@ -18,6 +18,6 @@ const isYarnGlobal = require('is-yarn-global');
 console.log(isYarnGlobal());
 ```
 
-## Licenese
+## License
 
 MIT © [LitoMore](https://github.com/LitoMore)
