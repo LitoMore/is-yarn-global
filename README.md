@@ -1,6 +1,6 @@
 # is-yarn-global
 
-Check if installed by yarn globally without `fs` calls
+Check if installed by yarn globally without any `fs` calls
 
 ## Install
 

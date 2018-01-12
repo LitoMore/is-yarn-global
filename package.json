@@ -1,7 +1,7 @@
 {
   "name": "is-yarn-global",
   "version": "0.1.0",
-  "description": "Check if installed by yarn globally without `fs` calls",
+  "description": "Check if installed by yarn globally without any `fs` calls",
   "repository": "git@github.com:LitoMore/is-yarn-global.git",
   "author": "LitoMore (litomore@gmail.com)",
   "license": "MIT",
