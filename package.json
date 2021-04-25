@@ -4,12 +4,25 @@
   "description": "Check if installed by yarn globally without any `fs` calls",
   "repository": "git@github.com:LitoMore/is-yarn-global.git",
   "author": "LitoMore (litomore@gmail.com)",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "source",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test": "xo"
   },
   "devDependencies": {
-    "ava": "^2.4.0",
-    "xo": "^0.25.3"
+    "@sindresorhus/tsconfig": "^1.0.2",
+    "xo": "^0.39.1"
+  },
+  "xo": {
+    "prettier": true
   }
 }
